@@ -1,55 +1,19 @@
-<!DOCTYPE html>
-<html>
+<div class="form-container"
+ <h2>Faça sua encomenda </h2>
+ <form action="#" method="post">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-  <table {
-    width: 100%;
-    border-collapse: collapse; /* remove espaço entre as bordas */
-  }
-  th, td {
-    border: 2px solid black; /* adiciona borda as celulas */
-    padding: 8px;
-    text-align: center;
-  }
+  <!-- Dados do Cliente -->
+   <label for="nome">Nome:</label>
+   <input type="text" id="nome" name="nome" required>
 
-  th {
-    background-color: deeppink; /* cor de fundo para cabeçalho */
-    color: white; /* cor do texto para cabeçalho */
-  }
+   <label for="endereço">endereço</label>
+   <input type="text" id="endereço" name="endereço" required>
 
-  h1 {
-    color: hotpink;
-  }
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="whatsapp" name="whatsapp" required>
 
-  h2 {
-    color: hotpink;
-  }
-
-  p {
-    color: hotpink;
-  }
-  </style>
-</head>
-  
-<body bgcolor="pink">
-  <main>
-  <img src="Pink and Red Blob Abstract Illustrative Dessert Billboard Web Ad (2).png" width="100%"> <heigth="400">
-  
-  <!-- <div class"form-container" -->
-   <h2> Entre em contato </h2>
-   <form>
-    <label for="Nome">Nome:</label>
-    <input type="text" id="Nome" name="Nome" required>
-
-    <label for="email">email:</label>
-    <input type="text" id="email" name="email" required>
-   </form>
-    
-  </table>
-<main>
-</html>
+    <!--Tipo de Produto-->
+    <label for="produto">O que deseja encomendar?</label>
+    <select id="produto" name="produto" required>
+      <option value="">Selecione uma opção</option>
+      <option value="brownie">Brownie</option>
